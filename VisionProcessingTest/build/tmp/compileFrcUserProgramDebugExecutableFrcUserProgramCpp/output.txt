@@ -1,0 +1,15 @@
+See file:///home/hcrhs-10/VisionProcessingTest/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp: In member function 'virtual void Robot::RobotInit()':
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:21:18: warning: variable 'm_leftStick' set but not used [-Wunused-but-set-variable]
+   frc::Joystick *m_leftStick;
+                  ^~~~~~~~~~~
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:22:18: warning: variable 'm_rightStick' set but not used [-Wunused-but-set-variable]
+   frc::Joystick *m_rightStick;
+                  ^~~~~~~~~~~~
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp: In member function 'void Robot::makeDecisions(double, double)':
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:71:25: warning: variable 'leftMotorPower' set but not used [-Wunused-but-set-variable]
+   nt::NetworkTableEntry leftMotorPower = frc::Shuffleboard::GetTab("Vision Processing")
+                         ^~~~~~~~~~~~~~
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///home/hcrhs-10/VisionProcessingTest/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.

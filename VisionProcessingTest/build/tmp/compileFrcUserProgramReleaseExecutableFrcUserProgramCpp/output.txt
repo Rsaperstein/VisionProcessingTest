@@ -1,0 +1,24 @@
+See file:///home/hcrhs-10/VisionProcessingTest/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp: In member function 'virtual void Robot::RobotInit()':
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:21:18: warning: variable 'm_leftStick' set but not used [-Wunused-but-set-variable]
+   frc::Joystick *m_leftStick;
+                  ^~~~~~~~~~~
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:22:18: warning: variable 'm_rightStick' set but not used [-Wunused-but-set-variable]
+   frc::Joystick *m_rightStick;
+                  ^~~~~~~~~~~~
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp: In member function 'void Robot::makeDecisions(double, double)':
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:73:25: warning: variable 'leftFrontMotorPower' set but not used [-Wunused-but-set-variable]
+   nt::NetworkTableEntry leftFrontMotorPower = frc::Shuffleboard::GetTab("Vision Processing")
+                         ^~~~~~~~~~~~~~~~~~~
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:76:25: warning: variable 'leftRearMotorPower' set but not used [-Wunused-but-set-variable]
+   nt::NetworkTableEntry leftRearMotorPower = frc::Shuffleboard::GetTab("Vision Processing")
+                         ^~~~~~~~~~~~~~~~~~
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:79:25: warning: variable 'rightFrontMotorPower' set but not used [-Wunused-but-set-variable]
+   nt::NetworkTableEntry rightFrontMotorPower = frc::Shuffleboard::GetTab("Vision Processing")
+                         ^~~~~~~~~~~~~~~~~~~~
+/home/hcrhs-10/VisionProcessingTest/src/main/cpp/Robot.cpp:82:25: warning: variable 'rightRearMotorPower' set but not used [-Wunused-but-set-variable]
+   nt::NetworkTableEntry rightRearMotorPower = frc::Shuffleboard::GetTab("Vision Processing")
+                         ^~~~~~~~~~~~~~~~~~~
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///home/hcrhs-10/VisionProcessingTest/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
